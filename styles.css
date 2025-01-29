@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('1297318.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+h2 {
+    font-size: 18px; /* Increase font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    color: #333; /* Darker text color for contrast */
+    background-color: #f9f9f9; /* Light background color */
+    padding: 15px; /* Add padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 300px; /* Limit the width for better readability */
+    margin: 20px auto; /* Center the paragraph with margin */
+    text-align: center;
+}
+.about p {
+    font-size: 18px; /* Increase font size */
+    line-height: 1.6; /* Increase line height for better readability */
+    color: #333; /* Darker text color for contrast */
+    background-color: #f9f9f9; /* Light background color */
+    padding: 15px; /* Add padding for spacing */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 900px; /* Limit the width for better readability */
+    margin: 20px auto; /* Center the paragraph with margin */
+    text-align: center;
+}
+
+.profile-pic {
+    width: 200px; /* Increase the width */
+    height: 200px; /* Set a fixed height to maintain aspect ratio */
+    border-radius: 50%; /* Keep it circular */
+    display: block; /* Make it a block element */
+    margin: 0 auto; /* Center it horizontally */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.projects {
+    display: grid; /* Change to grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center the grid items */
+    margin: 0 auto;
+    max-width: 1000px; /* Optional: Set a max width for the grid */
+}
+
+.project {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 0 auto; /* Center each project card */
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin: 10px 0 5px;
+}
+
+.project p {
+    font-size: 16px; /* Increased font size for better readability */
+    color: #555;
+}
